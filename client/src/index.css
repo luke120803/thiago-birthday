@@ -222,6 +222,102 @@
 }
 
 /* ============================================================
+   THIAGO SPECIAL CARD
+   ============================================================ */
+
+.thiago-special-card {
+  display: flex;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 700px;
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.08) 0%, rgba(229, 9, 20, 0.04) 100%);
+  border: 1px solid rgba(229, 9, 20, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+  backdrop-filter: blur(8px);
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.thiago-card-image {
+  position: relative;
+  width: 180px;
+  height: 220px;
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.thiago-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.thiago-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.2) 0%, rgba(0, 0, 0, 0.3) 100%);
+  pointer-events: none;
+}
+
+.thiago-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.thiago-card-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(1.8rem, 5vw, 2.4rem);
+  font-weight: 700;
+  color: var(--netflix-text);
+  margin: 0;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.thiago-card-subtitle {
+  font-size: clamp(0.9rem, 2vw, 1.05rem);
+  color: var(--netflix-text-secondary);
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.thiago-card-divider {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--netflix-accent) 0%, transparent 100%);
+  margin-top: 0.5rem;
+  transform-origin: left;
+}
+
+@media (max-width: 700px) {
+  .thiago-special-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .thiago-card-image {
+    width: 160px;
+    height: 200px;
+  }
+
+  .thiago-card-divider {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ============================================================
    WHO IS WATCHING SECTION
    ============================================================ */
 
@@ -492,7 +588,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top center;
+  object-position: center;
   display: block;
 }
 

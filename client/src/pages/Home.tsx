@@ -62,12 +62,52 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="app-main">
+        {/* Thiago Special Card */}
+        <motion.div
+          className="thiago-special-card"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.1, ease: [0.25, 0.46, 0.45, 0.94] }}
+        >
+          <div className="thiago-card-image">
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24fQjFKetMfVnqgH4c/thiago_758b1db2.jpg"
+              alt="Thiago"
+            />
+            <div className="thiago-card-overlay" />
+          </div>
+          <div className="thiago-card-content">
+            <motion.h2
+              className="thiago-card-title"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+            >
+              Feliz Aniversário, Thiago!
+            </motion.h2>
+            <motion.p
+              className="thiago-card-subtitle"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              Confira as mensagens especiais de quem te ama
+            </motion.p>
+            <motion.div
+              className="thiago-card-divider"
+              initial={{ scaleX: 0 }}
+              animate={{ scaleX: 1 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+            />
+          </div>
+        </motion.div>
+
         {/* Title Section */}
         <motion.div
           className="who-is-watching"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
+          transition={{ duration: 0.7, delay: 0.6, ease: "easeOut" }}
         >
           <h1 className="who-title">Quem deixou uma mensagem?</h1>
           <p className="who-subtitle">
