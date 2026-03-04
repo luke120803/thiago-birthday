@@ -318,6 +318,59 @@
 }
 
 /* ============================================================
+   YEAR FILTER
+   ============================================================ */
+
+.year-filter-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 2.5rem;
+  width: 100%;
+}
+
+.year-filter-tabs {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.year-filter-tab {
+  position: relative;
+  background: none;
+  border: none;
+  color: var(--netflix-text-secondary);
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.year-filter-tab:hover {
+  color: var(--netflix-text);
+}
+
+.year-filter-tab.active {
+  color: var(--netflix-text);
+}
+
+.year-filter-underline {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--netflix-accent) 0%, transparent 100%);
+}
+
+.year-filter-label {
+  display: inline-block;
+}
+
+/* ============================================================
    WHO IS WATCHING SECTION
    ============================================================ */
 
@@ -368,6 +421,24 @@
     gap: 1.5rem 2rem;
     max-width: 640px;
   }
+}
+
+/* ============================================================
+   EMPTY STATE
+   ============================================================ */
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 2rem;
+  max-width: 500px;
+}
+
+.empty-state-text {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: var(--netflix-text-secondary);
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 /* ============================================================

@@ -7,7 +7,8 @@
     "message": "Agradeço a Deus pela sua vida, e por ele ter te colocado como meu líder também. Desejo chuvas de bênçãos na sua vida, que você tenha muito mais prosperidade no seu ministério. Você é uma pessoa engraçada mas que consegue ser séria também kkkkk, obrigada por ser esse líder maravilhoso e cheio de ideias malucas que você é!! Espero que com Deus você consiga alcançar todos os seus objetivos (fique rico pra pagar os figurino e objetos do norte dance). Obrigada por tentar aguentar todas as nossas palhaçadas no ensaio, e as vezes participar também. Deus te abençoe grandemente, te admiro muito Thiago menino da garrafa Stanley!!!",
     "videoUrl": "https://supresa-titio-thiago.netlify.app/imagens/juh/juhv.mp4",
     "photos": [],
-    "color": "#E50914"
+    "color": "#E50914",
+    "year": 2025
   },
   {
     "id": "nicole",
@@ -22,7 +23,8 @@
       "https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24fQjFKetMfVnqgH4c/nicole03_7e89ec1e.jpeg",
       "https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24fQjFKetMfVnqgH4c/nicole04_bac66114.jpeg"
     ],
-    "color": "#E50914"
+    "color": "#E50914",
+    "year": 2025
   },
   {
     "id": "moises",
@@ -32,7 +34,8 @@
     "message": "Eae meu irmão! Apenas passando para expressar um pouco do muito que você significa na minha e na vida de cada um que tem a honra de lhe conhecer.\n\nMuito obrigado, Thiago. Em cada momento divertido juntos, cada aprendizado compartilhado e em todo exemplo aprendido com você... é um presente único, que por si só já me faz reconhecer o quanto o Senhor nos presenteia com coisas que não merecemos... Alguns se cobram demais falando que poderiam ser melhores, outros se acomodam no sentimento de que existem muitos que fazem menos do que elas... mas sinceramente desejo a você, que encontre este lugar no Senhor em que podemos nos satisfazer nEle e entender que toda Excelência parte dEle... existe mais de Deus para nós, mano.\n\nPapai do céu te ama muito! E eu tbm 🔥",
     "videoUrl": null,
     "photos": [],
-    "color": "#E50914"
+    "color": "#E50914",
+    "year": 2025
   },
   {
     "id": "lucas",
@@ -42,7 +45,8 @@
     "message": "Fico muito feliz por sempre poder comemorar essa data ao seu lado. Sou grato pela sua vida e pela sua amizade, que são tão especiais para mim. São tantos momentos marcantes, piadas internas e memórias que guardo com carinho, e tudo isso só aumenta o amor que sinto pela nossa amizade.\n\nObrigado por ser aquele amigo presente em todos os momentos, seja nas risadas ou nas dificuldades. Que Deus continue abençoando sua vida com saúde, paz, felicidade e todas as bênçãos que você merece.\n\nParabéns, Thiago! 🎉🎂",
     "videoUrl": null,
     "photos": [],
-    "color": "#E50914"
+    "color": "#E50914",
+    "year": 2025
   },
   {
     "id": "tirza",
@@ -52,7 +56,8 @@
     "message": "Fico muito feliz de participar dessa data tão especial. Queria agradecer a Deus por ter a honra de servir ao seu lado. Sempre vi e continuo vendo seu esforço, dedicação, organização e muitas qualidades que te fazem um líder admirável. Você é exemplo pra nossa geração e espero que a nossa amizade seja duradoura.\n\nAmo demais sua vida amigo! Obrigada por tudo 🤍\n\nFeliz aniversário! 🎉",
     "videoUrl": "https://supresa-titio-thiago.netlify.app/imagens/tirza/Tirzav.mp4",
     "photos": [],
-    "color": "#E50914"
+    "color": "#E50914",
+    "year": 2025
   },
   {
     "id": "vih",
@@ -64,7 +69,8 @@
     "photos": [
       "https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24fQjFKetMfVnqgH4c/vih02_2b55794d.jpeg"
     ],
-    "color": "#E50914"
+    "color": "#E50914",
+    "year": 2025
   },
   {
     "id": "minnie",
@@ -74,7 +80,8 @@
     "message": "Aeeee, finalmente chegou o dia do titio Thiago! Nossa, você não sabe o quanto eu sou grata em ter você em minha vida, que você continue esse ótimo companheiro de dança querido kk. Já te falei várias vezes (uma vez kk) que você é uma inspiração tanto de líder e ministrando na dança também, você é incrível!\n\nHappy birthday titio Thiago! 🥳",
     "videoUrl": null,
     "photos": [],
-    "color": "#E50914"
+    "color": "#E50914",
+    "year": 2025
   },
   {
     "id": "pedro",
@@ -86,6 +93,18 @@
     "photos": [
       "https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24fQjFKetMfVnqgH4c/pedro02_71fc09ba.jpeg"
     ],
-    "color": "#E50914"
+    "color": "#E50914",
+    "year": 2025
+  },
+  {
+    "id": "juh_2026",
+    "name": "Juh",
+    "avatar": "https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24fQjFKetMfVnqgH4c/juh_f066c1f7.jpeg",
+    "role": "Amiga do Ministério",
+    "message": "Mais um ano de bênçãos, Thiago! Que 2026 seja um ano cheio de vitórias, crescimento e muita diversão com o norte dance. Você é incrível e merece tudo de melhor! Que Deus continue te abençoando!",
+    "videoUrl": null,
+    "photos": [],
+    "color": "#E50914",
+    "year": 2026
   }
 ]

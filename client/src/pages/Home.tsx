@@ -5,10 +5,11 @@
  * Fundo: hero cinematográfico com bokeh vermelho/dourado
  */
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import ProfileCard from "@/components/ProfileCard";
 import MessageModal from "@/components/MessageModal";
+import YearFilter from "@/components/YearFilter";
 import messagesData from "@/data/messages.json";
 
 type Friend = {
@@ -20,6 +21,7 @@ type Friend = {
   videoUrl: string | null;
   photos: string[];
   color?: string;
+  year?: number;
 };
 
 const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24fQjFKetMfVnqgH4c/hero-bg-KxWq8Qmdm7vasR45jnG8bg.webp";
@@ -27,6 +29,18 @@ const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24
 export default function Home() {
   const [selectedFriend, setSelectedFriend] = useState<Friend | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedYear, setSelectedYear] = useState<number>(2025);
+
+  // Get unique years from messages data
+  const availableYears = useMemo(() => {
+    const years = new Set((messagesData as Friend[]).map((f) => f.year || 2025));
+    return Array.from(years).sort((a, b) => b - a);
+  }, []);
+
+  // Filter messages by selected year
+  const filteredMessages = useMemo(() => {
+    return (messagesData as Friend[]).filter((f) => (f.year || 2025) === selectedYear);
+  }, [selectedYear]);
 
   const handleProfileClick = (profile: Friend) => {
     setSelectedFriend(profile);
@@ -102,6 +116,15 @@ export default function Home() {
           </div>
         </motion.div>
 
+        {/* Year Filter */}
+        {availableYears.length > 1 && (
+          <YearFilter
+            years={availableYears}
+            selectedYear={selectedYear}
+            onYearChange={setSelectedYear}
+          />
+        )}
+
         {/* Title Section */}
         <motion.div
           className="who-is-watching"
@@ -117,7 +140,7 @@ export default function Home() {
 
         {/* Profiles Grid */}
         <div className="profiles-grid">
-          {(messagesData as Friend[]).map((friend, index) => (
+          {filteredMessages.map((friend, index) => (
             <ProfileCard
               key={friend.id}
               profile={friend}
@@ -126,6 +149,20 @@ export default function Home() {
             />
           ))}
         </div>
+
+        {/* Empty State */}
+        {filteredMessages.length === 0 && (
+          <motion.div
+            className="empty-state"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <p className="empty-state-text">
+              Nenhuma mensagem para este ano ainda. Volte em breve! 🎉
+            </p>
+          </motion.div>
+        )}
 
         {/* Birthday Message */}
         <motion.div
@@ -136,7 +173,7 @@ export default function Home() {
         >
           <div className="birthday-banner-line" />
           <p className="birthday-banner-text">
-            🎂 Feliz 22 anos, Thiago! 🎉
+            🎂 Feliz {selectedYear - 2002} anos, Thiago! 🎉
           </p>
           <div className="birthday-banner-line" />
         </motion.div>
