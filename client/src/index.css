@@ -395,32 +395,36 @@
 }
 
 /* ============================================================
-   PROFILES GRID
+   PROFILES CAROUSEL (NETFLIX STYLE)
    ============================================================ */
+.profiles-carousel-wrapper {
+    /* Faz o carrossel ocupar toda a largura da tela */
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 1rem 0 3rem 0;
 
-.profiles-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem 2.5rem;
-  max-width: 760px;
-  width: 100%;
-  align-items: start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
 }
 
-@media (max-width: 600px) {
-  .profiles-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem 2rem;
-    max-width: 340px;
-  }
+.profiles-carousel-wrapper::-webkit-scrollbar {
+    display: none;
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
-  .profiles-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem 2rem;
-    max-width: 640px;
-  }
+.profiles-carousel {
+    display: flex;
+    gap: 1.5rem;
+    width: max-content;
+    padding: 0 max(1.5rem, calc((100vw - 760px) / 2));
+}
+
+.profiles-carousel > * {
+    flex-shrink: 0;
+    scroll-snap-align: start;
 }
 
 /* ============================================================
@@ -590,20 +594,18 @@
 }
 
 .modal-container {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 101;
-  width: min(92vw, 820px);
-  max-height: min(92vh, 900px);
-  background: var(--netflix-dark);
-  border-radius: 8px;
-  overflow: hidden;
-  overflow-y: auto;
-  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 255, 255, 0.08);
-  scrollbar-width: thin;
-  scrollbar-color: var(--netflix-border) transparent;
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 101;
+    width: min(92vw, 820px);
+    max-height: 90vh;
+    background: var(--netflix-dark);
+    border-radius: 8px;
+    overflow-y: auto;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 255, 255, 0.08);
+    margin: 0;
 }
 
 .modal-container::-webkit-scrollbar {
@@ -648,19 +650,24 @@
 }
 
 .modal-photo-wrapper {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16/9;
-  background: #111;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    /* 1. Mudamos de 16/9 (muito deitado) para 4/3 (mais alto, ideal para retratos) */
+    aspect-ratio: 4/3;
+    /* 2. Adicionamos um fundo com gradiente sutil para não ficar um preto "vazio" nas laterais */
+    background: radial-gradient(circle at center, #2a2a2a 0%, #000000 100%);
+    overflow: hidden;
 }
 
 .modal-photo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
+    width: 100%;
+    height: 100%;
+    /* 3. Contain garante que a foto apareça 100% inteira, sem NENHUM corte */
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    /* 4. Uma leve sombra para destacar a foto do fundo */
+    filter: drop-shadow(0px 10px 20px rgba(0,0,0,0.5));
 }
 
 .modal-video {
@@ -981,4 +988,27 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/* ============================================================
+   INTRO ANIMATION (NETFLIX STYLE)
+   ============================================================ */
+.intro-container {
+    position: fixed;
+    inset: 0;
+    background-color: #000000; /* Preto absoluto para dar contraste */
+    z-index: 9999; /* Fica por cima de tudo no site */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    pointer-events: none; /* Impede cliques não intencionais durante a animação */
+}
+
+.intro-logo {
+    display: flex;
+    align-items: baseline;
+    /* Uma fonte gigantesca para a intro, adaptável ao tamanho da tela */
+    font-size: clamp(3rem, 10vw, 8rem);
+    user-select: none;
 }
