@@ -130,9 +130,65 @@
     "year": 2026
   },
   {
+    "id": "ryan_2026",
+    "name": "Ryan",
+    "avatar": "ryan03.jpeg",
+    "role": "Amigo",
+    "message": "Helloou Th\nEspero que esse dia seja um dia especial pra vc e que papai do céu possa estar abençoando mtoo. Sou mto grato a Deus por tudo oq fizeste por mim e por ser essa pessoa incrível que vc é, um irmão,  um amigo e um companheiro, obrigado por todas as risadas e por todos os momentos que tivemos, espero poder viver mtooo ao seu lado e saiba que vc tem um lugar mto especial no meu coração. \nAmo te❤\uFE0F",
+    "videoUrl": "ryan04.mp4",
+    "photos": ["ryan01.jpeg", "ryan02.jpeg", "ryan.jpeg"],
+    "color": "#E50914",
+    "year": 2026
+  },
+  {
+    "id": "mandy_2026",
+    "name": "Mandy",
+    "avatar": "mandy.jpeg",
+    "role": "Amiga",
+    "message": "Happy Birthday TEAGAAAA, vim aqui lhe desejar um feliz aniversário pela 2 vez, eu acho. Mas quero falar que eu amo muito sua vida, você é uma pessoa extraordinária, incrível, elegante, geniosa, inspiradora, estranha, é muito, muito intrigante, te conhecer foi um grande presente de Deus na minha vida (detalhe, não lembro quando eu lhe conheci), mas agradeço por este dia. Agradeço pelas oportunidades de servir ao Senhor ao seu lado, pelas conversas, palhaçadas e apelidos um tanto excêntricos, mas acima de tudo obrigada por ser um amigo incrível, que torna nossa vida cada vez melhor, um líder inspirador, que a cada dia que passe você seja cada vez mais usado pelo Senhor e que sua liderança tragam frutos a obra do Senhor, e seu ministério inspire, frutifique e inspire outras pessoas a se entregarem cada vez mais! Obrigada por me fazer entender o significado desses versículos Provérbios 18:24 e Provérbios 27:9 Obrigada por tudo de verdade. Que sua vida seja repleta de momentos extraordinários, de benções e de oportunidades para você crescer em todas as áreas dela. Obrigada por está na minha vida. \nTe amo demais, xuxu. \uD83E\uDD0D✨\nAss: Ameinda",
+    "videoUrl": null,
+    "photos": [
+      "mandy01.jpeg",
+      "mandy02.jpeg",
+      "mandy03.jpeg",
+      "mandy04.jpeg",
+      "mandy05.jpeg",
+      "mandy06.jpeg",
+      "mandy07.jpeg",
+      "mandy08.jpeg",
+      "mandy09.jpeg",
+      "mandy10.jpeg",
+      "mandy11.jpeg",
+      "mandy12.jpeg",
+      "mandy13.jpeg",
+      "mandy14.jpeg",
+      "mandy15.jpeg"
+    ],
+    "color": "#E50914",
+    "year": 2026
+  },
+  {
+    "id": "ph_2026",
+    "name": "Pedro",
+    "avatar": "ph05.jpeg",
+    "role": "Amigo",
+    "message": "Teagaaaaaa, tudo bom, irmão?\n\nHbirthday mnoooo! Me alegro muito por celebrar sua vida mais um ano. Que Papai do céu abençoe sempre muitíssimo você, meu líder!\n\nObrigado por tudo, conte comigo pro que for, farei o possível pra sempre estar com você, o impossível Deus está fazendo e o que não sabemos vamo aprender juntos \uD83D\uDE0E\n\nAmo você em Cristo, meu líder! \n\n(\\_/)\n(  •.•)\n/>\uD83C\uDF89",
+    "videoUrl": "ph06.mp4",
+    "photos": [
+      "ph01.jpeg",
+      "ph02.jpeg",
+      "ph03.jpeg",
+      "ph04.jpeg",
+      "ph05.jpeg",
+      "ph.jpeg"
+    ],
+    "color": "#E50914",
+    "year": 2026
+  },
+  {
     "id": "",
     "name": "",
-    "avatar": ".jpeg",
+    "avatar": "",
     "role": "",
     "message": "",
     "videoUrl": null,
