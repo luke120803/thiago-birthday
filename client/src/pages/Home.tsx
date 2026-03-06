@@ -129,7 +129,7 @@ export default function Home() {
               }}
             >
               <img
-                src="../../public/Th.jpeg"
+                src="/Th.jpeg"
                 alt="Thiago"
                 className="profile-avatar"
               />
@@ -222,7 +222,7 @@ export default function Home() {
           >
             <div className="thiago-card-image">
               <img
-                src="../../public/Th.jpeg"
+                src="/Th.jpeg"
                 alt="Thiago"
               />
               <div className="thiago-card-overlay" />
