@@ -192,7 +192,7 @@
     "role": "Amigo",
     "message": "feliz aniversário th!\nNão é novidade que você é uma inspiração e um irmão para mim, mas nesse texto eu queria lhe recordar algo muito incrível em você também... Thiago, TODO serviço e esforço dedicado que você entrega na sua vida(que pertence ao Senhor) ecoa profundamente na vidas pessoas ao seu redor, de um forma mais real do que imagina! Sua proatividade, sua presença, seus conselhos, sua liderança, seu exemplo, seu humor único, seus comentários precisos, sua criatividade de outro nível, sua personalidade sem igual, sua disposição admirável, sua organização de administrador e não poderia deixar de falar da sua fidelidade tão inspiradora! Nossa eu poderia passar horas falando sobre esses pontos e ainda não definiriam nem metade da revelação da pessoa de Cristo que tenho através de você!\nMinha oração é que o Senhor permaneça construindo e reconstruindo o seu caráter em um mais parecido com o dEle!\nfeliz 23 years irmão!\namo você \uD83E\uDD0D",
     "videoUrl": null,
-    "photos": [],
+    "photos": ["moih02.jpeg","moih03.jpeg","moih04.jpeg","moih05.jpeg","moih06.jpeg"],
     "color": "#E50914",
     "year": 2026
   },
@@ -208,11 +208,40 @@
     "year": 2026
   },
   {
-    "id": "lucas_2026",
-    "name": "Lucas",
-    "avatar": "",
-    "role": "Amigo",
-    "message": "",
+    "id": "Nicole_2026",
+    "name": "Nih",
+    "avatar": "nih03.jpeg",
+    "role": "Amiga",
+    "message": "Thiago, feliz aniversário! \nSou muito grata a Deus pela sua vida, pela sua liderança e pelo cuidado que você tem com todos nós. Que Deus continue te abençoando, te dando sabedoria, força e muitos motivos para sorrir. Que esse novo ciclo seja cheio de conquistas, paz e presença de Deus. Amo vc \uD83E\uDD0D",
+    "videoUrl": "",
+    "photos": ["nih01.jpeg", "nih02.jpeg"],
+    "color": "#E50914",
+    "year": 2026
+  },
+  {
+    "id": "tirza_2026",
+    "name": "Tirza",
+    "avatar": "tirza02.jpeg",
+    "role": "Amiga",
+    "message": "Feliz vida, Thiago! \uD83C\uDF89✨\n\nQue Deus continue iluminando seus caminhos, fortalecendo seus sonhos e te levando a viver tudo aquilo que Ele já preparou pra você. Eu te admiro demais pela pessoa incrível que você é — inteligente, dedicado, cheio de luz e com um coração enorme.\n\nEu amo vc e sou muito grata a Deus por ter colocado a sua amizade na minha vida. Que esse novo ano seja incrível, próspero, do jeitinho que você merece. \uD83D\uDC9B",
+    "videoUrl": "tirza08.mp4",
+    "photos": [
+      "tirza01.jpeg",
+      "tirza03.jpeg",
+      "tirza04.jpeg",
+      "tirza05.jpeg",
+      "tirza06.jpeg",
+      "tirza07.jpeg"
+    ],
+    "color": "#E50914",
+    "year": 2026
+  },
+  {
+    "id": "Minnie_2026",
+    "name": "Minnie",
+    "avatar": "https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24fQjFKetMfVnqgH4c/minnie_5b754d76.jpeg",
+    "role": "Amiga",
+    "message": "Hoje é aniversário do nosso querido titio Thiago! \uD83C\uDF89\uD83C\uDF82\n\nParabéns, TH! Que Deus continue te abençoando muito, te dando saúde, alegria e muita paciência… principalmente com a gente na dança e com os adolescentes da igreja! \uD83D\uDE05\n\nObrigado por sempre ensinar, ajudar e também aguentar nossas bagunças. Você é um líder muito especial pra todos nós.\n\nQue seu novo ano seja cheio de bênçãos, felicidade e muitos momentos de alegria. E pode se preparar… porque ainda vamos dar muito trabalho pra você! \uD83D\uDE02\n\nFeliz aniversário, titio Thiago! \uD83C\uDF8A",
     "videoUrl": "",
     "photos": [],
     "color": "#E50914",

@@ -30,7 +30,7 @@ const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663403397891/Fy2N24
 export default function Home() {
   const [selectedFriend, setSelectedFriend] = useState<Friend | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedYear, setSelectedYear] = useState<number>(2025);
+  const [selectedYear, setSelectedYear] = useState<number>(2026);
   const [showIntro, setShowIntro] = useState(true);
   const [hasStarted, setHasStarted] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -222,10 +222,10 @@ export default function Home() {
           >
             <div className="thiago-card-image">
               <img
-                src="/Th.jpeg"
+                src="/th.jpg"
                 alt="Thiago"
               />
-              <div className="thiago-card-overlay" />
+              {/* A linha da overlay foi removida daqui! */}
             </div>
             <div className="thiago-card-content">
               <motion.h2

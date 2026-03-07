@@ -18,6 +18,7 @@ interface Friend {
   videoUrl: string | null;
   photos: string[];
   color?: string;
+  year?: string | number;
 }
 
 interface MessageModalProps {
@@ -152,8 +153,7 @@ export default function MessageModal({ friend, isOpen, onClose }: MessageModalPr
               <div className="modal-header">
                 <div className="modal-meta">
                   <span className="modal-badge">Mensagem</span>
-                  <span className="modal-year">2025</span>
-                  {friend.videoUrl && (
+                  <span className="modal-year">{friend.year || "2026"}</span>                  {friend.videoUrl && (
                     <span className="modal-badge modal-badge-video">Vídeo</span>
                   )}
                 </div>
