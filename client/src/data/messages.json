@@ -186,12 +186,34 @@
     "year": 2026
   },
   {
-    "id": "",
-    "name": "",
-    "avatar": "",
-    "role": "",
-    "message": "",
+    "id": "moih_2026",
+    "name": "Moisés",
+    "avatar": "Moih.jpeg",
+    "role": "Amigo",
+    "message": "feliz aniversário th!\nNão é novidade que você é uma inspiração e um irmão para mim, mas nesse texto eu queria lhe recordar algo muito incrível em você também... Thiago, TODO serviço e esforço dedicado que você entrega na sua vida(que pertence ao Senhor) ecoa profundamente na vidas pessoas ao seu redor, de um forma mais real do que imagina! Sua proatividade, sua presença, seus conselhos, sua liderança, seu exemplo, seu humor único, seus comentários precisos, sua criatividade de outro nível, sua personalidade sem igual, sua disposição admirável, sua organização de administrador e não poderia deixar de falar da sua fidelidade tão inspiradora! Nossa eu poderia passar horas falando sobre esses pontos e ainda não definiriam nem metade da revelação da pessoa de Cristo que tenho através de você!\nMinha oração é que o Senhor permaneça construindo e reconstruindo o seu caráter em um mais parecido com o dEle!\nfeliz 23 years irmão!\namo você \uD83E\uDD0D",
     "videoUrl": null,
+    "photos": [],
+    "color": "#E50914",
+    "year": 2026
+  },
+  {
+    "id": "vih_2026",
+    "name": "Vitória",
+    "avatar": "vih02.jpeg",
+    "role": "Amiga",
+    "message": "feliz birthday, amancooo \uD83E\uDD73!!\n\nvocê eh um ótimo líder! vejo que fazes tudo com excelência pro Senhor, de todo o seu coração, e de todas as formas possíveis...\nvejo como a sua adoração eh tão bem expressa através da dança, o quanto você realmente se entrega a Ele por meio dos talentos criativos que Ele lhe entregou, e acho muito incrível como você não eh só líder, mas tmbm amigo, daqueles que podemos contar em qualquer situação, não importa qual seja...\nPapai do Céu ainda tem muitão pra fazer na sua vida e através dela, e desejo de todo o meu coração, que, a cada estação que vier, seja mais uma oportunidade pra ver esse Amor e cuidado tão grande que Ele tem por vc.\namo-te muitão, amgg \uD83E\uDD0D",
+    "videoUrl": null,
+    "photos": ["vih01.jpeg", "vih02.jpeg"],
+    "color": "#E50914",
+    "year": 2026
+  },
+  {
+    "id": "lucas_2026",
+    "name": "Lucas",
+    "avatar": "",
+    "role": "Amigo",
+    "message": "",
+    "videoUrl": "",
     "photos": [],
     "color": "#E50914",
     "year": 2026
